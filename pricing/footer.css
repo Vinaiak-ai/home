@@ -1,0 +1,61 @@
+  .footer-body{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    background: rgb(255,131,170);
+    background: linear-gradient(150deg, rgba(255,131,170,1) 27%, rgba(244,213,226,1) 36%, rgba(97,160,233,1) 52%, rgba(244,213,226,1) 69%, rgba(255,131,170,1) 84%, rgba(97,160,233,1) 95%);
+    width:auto;
+    justify-content: center;
+    padding: 4%;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+  }
+
+  .com-name{
+    font-size: 700%;
+  }
+
+  .second{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+
+  .logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:15%;
+  }
+
+  .each-logo{
+    width: 20%;
+  height: 100%;
+  border-radius: 10px;   
+  background-color: #FFFFFFCC;
+  text-align: center;
+  padding: 8px;
+
+  }
+
+  .third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-top:4%;
+  }
+
+  .footer-box{
+    width: 30%; 
+  height: 100%;
+  border-radius: 10px;   
+  background-color: #FFFFFFCC;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  }

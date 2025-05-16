@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Vinaiak</h1>
+      <ul>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Demo</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li><a style="color: white;" href="#">JOIN WAITLIST</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="pricing-section">
+    <div class = "top">
+        <h2>Pricing</h2>
+      <p style="font-size: 20px; line-height: 1.5;">A flexible, out of the box platform with pricing to meet your needs<p>
+
+    </div>
+      
+      <div class="cards">
+        <div class="card starter">
+          <h3>Starter</h3>
+          <div>
+            <p class="price">Rs. 29900</p>
+            <p>For 3 months</p>
+          <button class="book-btn">Book a demo</button>
+          <p style="font-size: 15px;">*Setup Cost of Rs. 750(one time)</p>
+
+        </div>
+        </div>
+        <div class="card pro">
+            <h3>Pro</h3>
+            <div>
+              <p class="price">Rs. 53900</p>
+              <p>For 6 months</p>
+            <button class="book-btn">Book a demo</button>
+            <p style="font-size: 15px;">*Setup Cost of Rs. 750(one time)</p>
+        </div>
+        </div>
+        <div class="card enterprise">
+            <h3>Enterprise</h3>
+            <div>
+              <p class="price">Rs. 95500</p>
+              <p>For 12 months</p>
+            <button class="book-btn">Book a demo</button>
+            <p style="font-size: 15px;">*Setup Cost of Rs. 750(one time)</p>
+
+        </div>
+        </div>
+      </div>
+    </section>  
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    // JavaScript to load footer.html
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('footer-placeholder').innerHTML = html;
+      });
+  </script>
+  <script src="index.js"></script>
+</body>
+</html>
